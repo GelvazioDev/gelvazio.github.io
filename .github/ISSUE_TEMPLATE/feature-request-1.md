@@ -1,5 +1,5 @@
 ---
-name: Feature request 1
+name: Feature request 1 TESTE
 about: Suggest an idea for this project aa
 
 ---
