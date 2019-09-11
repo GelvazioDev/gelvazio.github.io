@@ -18,6 +18,23 @@
 	<link href="css/style.css" rel="stylesheet" type="text/css" />
 	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>
+	
+	<!-- begin Wootric code -->
+	<script type="text/javascript">
+	  window.wootric_survey_immediately = true; // Shows survey immediately for testing purposes. TODO: Comment out for production.
+	  window.wootricSettings = {
+		email: 'gelvazio@unidavi.edu.br', // TODO: Required to uniquely identify a user. Email is recommended but this can be any unique identifier.
+		// external_id: 'abc123', // TODO: Reference field for external integrations only. Send it along with email. OPTIONAL
+		//created_at: 1234567890, // TODO: The current logged in user's sign-up date as a 10 digit Unix timestamp in seconds. OPTIONAL
+		account_token: 'NPS-575306dc' // This is your unique account token.
+	  };
+	</script>
+	<script type="text/javascript" src="https://cdn.wootric.com/wootric-sdk.js"></script>
+	<script type="text/javascript">
+	  // This loads the Wootric survey
+	  window.wootric('run');
+	</script>
+	<!-- end Wootric code -->
 </head>
 
 <body data-spy="scroll" data-target=".navbar-flat" data-offset="55">
