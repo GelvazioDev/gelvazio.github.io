@@ -7,3 +7,5 @@
 images_notoptimized
 
 *.codekit
+
+.idea/
