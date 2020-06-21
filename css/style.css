@@ -551,6 +551,10 @@ section.experience .divider {
     margin: 0 0 15px 0px;
 }
 
+#link a:hover {
+    color: #F7F6F6 !important;
+}
+
 .experience-line .bubble p.name {
     font-size: 20px;
     font-weight: 700;
