@@ -24,14 +24,16 @@
 	  window.wootric_survey_immediately = true; // Shows survey immediately for testing purposes. TODO: Comment out for production.
 	  window.wootricSettings = {
 		email: 'gelvazio@unidavi.edu.br', // TODO: Required to uniquely identify a user. Email is recommended but this can be any unique identifier.
-		// external_id: 'abc123',     // TODO: Reference field for external integrations only. Send it along with email. OPTIONAL
-		//created_at: 1234567890,     // TODO: The current logged in user's sign-up date as a 10 digit Unix timestamp in seconds. OPTIONAL
+		// external_id: 'abc123', // TODO: Reference field for external integrations only. Send it along with email. OPTIONAL
+		//created_at: 1234567890, // TODO: The current logged in user's sign-up date as a 10 digit Unix timestamp in seconds. OPTIONAL
 		account_token: 'NPS-575306dc' // This is your unique account token.
 	  };
-
-	  // window.wootric('run');
 	</script>
 	<script type="text/javascript" src="https://cdn.wootric.com/wootric-sdk.js"></script>
+	<script type="text/javascript">
+	  // This loads the Wootric survey
+	  window.wootric('run');
+	</script>
 	<!-- end Wootric code -->
 </head>
 
@@ -66,7 +68,6 @@
 						<li><a href="#social-network" class="scrollto">CONTATO</a></li>
 						<li><a href="#skills" class="scrollto">SKILLS</a></li>
 						<li><a href="#experience" class="scrollto">EXPERIÊNCIAS</a></li>
-						<li><a href="#githubprojects" class="scrollto">GITHUB PROJECTS</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -217,7 +218,7 @@
 	<section id="experience" class="experience section">
 		<div class="divider"></div>
 		<div class="heading">
-			<h2>PROJETOS GITHUB</h2>
+			<h2>EXPERIÊNCIAS PROFISSIONAIS</h2>
 		</div>
 		<div class="experience-line">
 			<ul>
@@ -228,7 +229,7 @@
 						<p class="name"><a href="https://www.tidas.com.br//" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Tidas Crediário">Tidas Crediário</a></p>
 						<p class="title">WEB Developer Back End(PHP)</p>
 					</div>
-				</li>				
+				</li>
 				<li class="animated inverse">
 					<div class="bubble">
 						<div class="bubble-arrow"></div>
@@ -262,10 +263,6 @@
 			<h3>"O ignorante afirma, o sábio duvida, o sensato reflete."</h3>
 			<h4>Aristóteles</h4>
 		</div>
-	</section>
-
-	<section id="githubprojects">
-
 	</section>
 	<section id="footer" class="footer section colored">
 		<p>&copy; 2019 Gelvazio Camargo. All Rights Reserved.</p>
