@@ -1,11 +1,1 @@
-.DS_Store
-*.sublime-project
-*.sublime-workspace
-*.bkp
-*.map
-*.scssc
-images_notoptimized
-
-*.codekit
-
 .idea/
