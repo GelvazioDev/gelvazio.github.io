@@ -350,12 +350,12 @@
 
     .categories__wrapper__links--home:nth-child(-n+3) {
         opacity: 0;
-        animation: .7s ease-out 0s 1 slideInFromLeft forwards
+        animation: .7s ease-out .2s 1 slideInFromLeft forwards
     }
 
     .categories__wrapper__links--home:nth-child(n+4) {
-        opacity: 0;
-        animation: .7s ease-out .5s 1 slideInFromLeft forwards
+        opacity:  0;
+        animation: .7s ease-out .6s 1 slideInFromLeft forwards
     }
 
     .categories__wrapper__links--home:hover {

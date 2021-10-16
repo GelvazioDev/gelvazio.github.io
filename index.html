@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/headerHome.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
 
 </head>
 
@@ -153,7 +154,7 @@
                                 <a href="paginas/cursos-online-mobile/jogos" class="categories__calls__description--home">Jogos</a><span class="categories__calls__description-separator"></span>
                                 <a href="paginas/cursos-online-mobile" class="categories__calls__link-see-more--home">e mais...</a></nav>
                         </div>
-                        <div class="categories__wrapper__links--home --inovacao-gestao" style="--color-var: #ff8c2a">
+                        <div id="teste" class="categories__wrapper__links--home --inovacao-gestao" style="--color-var: #ff8c2a">
                             <a class="categories__link--home" href="paginas/escola-inovacao-gestao">
                                 <div class="categories__link-wrapper--home">
                                     <div class="categories__texts" style="color:#ff8c2a;">
@@ -183,8 +184,10 @@
     <link rel="stylesheet" href="css/footer.css">
     <footer class="footer">
         <!--DADOS DO FOOTER-->
-        <p style="text-align: center;">&copy; 2021 Gelvazio Camargo. All Rights Reserved.</p>
+        <p style="text-align: center;">&copy; <span id="ano_pagina"></span> Gelvazio Camargo. All Rights Reserved.</p>
     </footer>
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="api/services.js"></script>
 </body>
 
 </html>
