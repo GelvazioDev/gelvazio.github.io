@@ -7,7 +7,7 @@ function inicializaPagina(){
     
     $("#ano_pagina").html(date.getFullYear());
     
-    getItems();
+   // getItems();
 }
 
 const github_username = 'Gelvazio';
@@ -113,6 +113,14 @@ function _displayCount(itemCount) {
 }
 
 function showDataFromGithub(data) {
+    
+    console.log(data);
+    
+    // dados completos do github 
+    // https://api.github.com/users/Gelvazio/events
+    
+    
+    
     // avatar_url: "https://avatars.githubusercontent.com/u/5419445?v=4"
     // bio: "Developper Backend pleno, frontend aprendiz."
     // blog: "https://gelvazio.github.io/"
@@ -148,8 +156,6 @@ function showDataFromGithub(data) {
 }
 
 function _displayItems(data) {
-    debugger;
-
     showDataFromGithub(data); return true;
     
     const tBody = document.getElementById('todos');
@@ -190,4 +196,68 @@ function _displayItems(data) {
     });
 
     todos = data;
+}
+
+function cadastrarUsuario(){
+    console.log("cadastrando usuario");
+    
+    let aListaInput = $("#cadastro_usuario input");
+
+    var formData = new FormData();
+    formData.append("chave", "value");
+    
+    var oDados = new Object();
+    $(aListaInput).each(function(index, oCampo) {
+        if(oCampo.name == 'name'){
+            oDados.name = oCampo.value;
+        }
+        if(oCampo.email == 'email'){
+            oDados.email = oCampo.value;
+        }
+        if(oCampo.password == 'password'){
+            oDados.password = oCampo.value;
+        }
+    });    
+    
+    console.log(oDados);
+    
+    // chama a api para cadastrar o usuario
+    update(oDados);
+}
+
+function update(oDados){
+
+    var email = "joao@gmail.com";
+    var passwd = "123";
+    
+    var RequestInit = { 
+        method: 'POST',
+        headers: getHeaders(),
+        //mode: 'cors',
+        cache: 'default',
+        body:JSON.stringify(
+            {
+                name: $("#name").val(),
+                email: $("#email").val(),
+                password: $("#password").val(),
+            }
+        )
+    };
+    
+    // let uris = 'http://localhost:3333/users/store';
+    let url = 'https://apidevs.herokuapp.com/users/store';
+    
+    fetch(url, RequestInit)
+        .then(response => response.json())
+        .then(data => _displayItems(data))
+        .catch(error => console.error('Unable to get items.', error));
+}
+
+function getHeaders(){
+    const headers = new Headers();
+    
+    headers.append("Content-Type", "application/json");
+    headers.append("X-Custom-Header", "ProcessThisImmediately");
+    
+    return headers;
 }
