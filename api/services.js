@@ -113,7 +113,7 @@ function _displayCount(itemCount) {
 }
 
 function showDataFromGithub(data) {
-    
+    debugger;
     console.log(data);
     
     // dados completos do github 
@@ -156,6 +156,8 @@ function showDataFromGithub(data) {
 }
 
 function _displayItems(data) {
+    debugger;
+    
     showDataFromGithub(data); return true;
     
     const tBody = document.getElementById('todos');
@@ -198,66 +200,47 @@ function _displayItems(data) {
     todos = data;
 }
 
-function cadastrarUsuario(){
-    console.log("cadastrando usuario");
-    
-    let aListaInput = $("#cadastro_usuario input");
-
-    var formData = new FormData();
-    formData.append("chave", "value");
-    
-    var oDados = new Object();
-    $(aListaInput).each(function(index, oCampo) {
-        if(oCampo.name == 'name'){
-            oDados.name = oCampo.value;
-        }
-        if(oCampo.email == 'email'){
-            oDados.email = oCampo.value;
-        }
-        if(oCampo.password == 'password'){
-            oDados.password = oCampo.value;
-        }
-    });    
-    
-    console.log(oDados);
-    
-    // chama a api para cadastrar o usuario
-    update(oDados);
+function cadastrarUsuario() {
+    updateUsuario();
 }
 
-function update(oDados){
-
-    var email = "joao@gmail.com";
-    var passwd = "123";
+function updateUsuario(){
     
+    const usuario = {
+        name: $("#name").val(),
+        email: $("#email").val(),
+        password: $("#password").val()
+    };
+
+    fetch(uri, {
+        method: 'POST',
+        headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json'
+        },
+    })
+        
     var RequestInit = { 
         method: 'POST',
         headers: getHeaders(),
-        //mode: 'cors',
-        cache: 'default',
-        body:JSON.stringify(
-            {
-                name: $("#name").val(),
-                email: $("#email").val(),
-                password: $("#password").val(),
-            }
-        )
+        body: JSON.stringify(usuario)        
     };
     
-    // let uris = 'http://localhost:3333/users/store';
-    let url = 'https://apidevs.herokuapp.com/users/store';
+    //let url = 'http://localhost:3333/users/store';
+    let url = 'https://apidevs.herokuapp.com/users/store';    
     
     fetch(url, RequestInit)
         .then(response => response.json())
-        .then(data => _displayItems(data))
-        .catch(error => console.error('Unable to get items.', error));
+        .then(data     => _displayItems(data))
+        .catch(error   => console.error('Unable to get items.', error));
 }
 
 function getHeaders(){
     const headers = new Headers();
     
+    headers.append("Accept", "application/json");
     headers.append("Content-Type", "application/json");
-    headers.append("X-Custom-Header", "ProcessThisImmediately");
+    headers.append("X-api-key", "d3f28f4d-4649-4b69-9ef7-7423b26d7508");
     
     return headers;
 }
