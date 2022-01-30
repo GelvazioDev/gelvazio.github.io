@@ -62,7 +62,7 @@
 }
 
 .categories__link__text:after {
-    content: '_'
+    content: ''
 }
 
 .categories__link__category-name {
