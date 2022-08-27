@@ -1,0 +1,2 @@
+window.addEventListener('error',({target:element})=>{const{dataset,src}=element;if(dataset===undefined||dataset.changedSrc!==undefined&&dataset.changedSrc===!0){return}
+const assetsUrl=/((http|https):\/\/www.alura.com.br\/|\/)assets\/(api|img)\/.*/;if(src.match(assetsUrl)){element.src='https://www.alura.com.br/assets/img/formacao/step-alura.1647533643.svg';dataset.changedSrc=!0}},!0)
