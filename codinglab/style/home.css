@@ -344,3 +344,8 @@
         padding: 25px;
         color: #fff;
     }
+    
+    .coluna {
+        display: flex;
+        flex-direction: column;
+    }
