@@ -1,0 +1,128 @@
+-- cria��o as tabelas
+
+create table tblogradouro(
+	logcodigo int not null,
+	logtipo varchar(10) not null,
+	logdescricao varchar(100),
+	constraint tblogradouro_pkey primary key (logcodigo)
+);
+
+create table tbpessoa(
+	pescodigo int not null,
+	pesnome varchar(100) not null,
+	pessexo smallint not null,
+	pestipo smallint not null,
+	logcodigo int not null,
+	constraint tbpessoa_pkey primary key (pescodigo),
+	constraint "FK_PESSOA=>LOGRADOURO" foreign key (logcodigo) references public.tblogradouro(logcodigo)
+);
+
+create table tbpessoacontato(
+	pescodigo int not null,
+	ctpnumero varchar(18) not null,
+	ctpdescricao varchar(100),
+	ctpramal int,
+	constraint tbpessoacontato_pkey primary key (pescodigo, ctpnumero),
+	constraint "FK_PESSOACONTATO=>PESSOA" foreign key (pescodigo) references public.tbpessoa(pescodigo)
+);
+
+create table tbimovel(
+	pescodigo int not null,
+	logcodigo int not null,
+	imvdescricao varchar(500) not null,
+	imvlargura numeric(10,2),
+	imvcomprimento numeric(10,2),
+	constraint tbimovel_pkey primary key (pescodigo, logcodigo),
+	constraint "FK_IMOVEL=>PESSOA" foreign key (pescodigo) references public.tbpessoa(pescodigo),
+	constraint "FK_IMOVEL=>LOGRADOURO" foreign key (logcodigo) references public.tblogradouro(logcodigo)
+);
+
+--1. Fazer inser��o de dados na tabela
+-- pestipo 1-f�sica 2-jur�dica
+-- pessexo 0-n�o informado 1-feminino 2-masculino
+
+insert into public.tblogradouro(logcodigo, logtipo, logdescricao) values(1, 'Rua', 'XV de Novembro');
+insert into public.tblogradouro(logcodigo, logtipo, logdescricao) values(2, 'Avenida', 'Carlos Gomes');
+insert into public.tblogradouro(logcodigo, logtipo, logdescricao) values(3, 'Travessa', 'Pinheiros');
+insert into public.tblogradouro(logcodigo, logtipo, logdescricao) values(4, 'BR', '470, km242');
+insert into public.tblogradouro(logcodigo, logtipo, logdescricao) values(5, 'Rua', 'S�o Paulo');
+insert into public.tblogradouro(logcodigo, logtipo, logdescricao) values(6, 'Estrada', 'Fundo Canoas');
+
+insert into public.tbpessoa(pescodigo, pesnome, pessexo, pestipo, logcodigo) values(1, 'Marcos', 1, 1, 2);
+insert into public.tbpessoa(pescodigo, pesnome, pessexo, pestipo, logcodigo) values(2, 'Pedro', 1, 1, 5);
+insert into public.tbpessoa(pescodigo, pesnome, pessexo, pestipo, logcodigo) values(3, 'Jos� S/A', 1, 2, 1);
+insert into public.tbpessoa(pescodigo, pesnome, pessexo, pestipo, logcodigo) values(4, 'Maria', 2, 1, 3);
+insert into public.tbpessoa(pescodigo, pesnome, pessexo, pestipo, logcodigo) values(5, 'Maria', 2, 1, 4);
+insert into public.tbpessoa(pescodigo, pesnome, pessexo, pestipo, logcodigo) values(6, 'Papel & CIA', 1, 2, 5);
+insert into public.tbpessoa(pescodigo, pesnome, pessexo, pestipo, logcodigo) values(7, 'Roberto', 1, 1, 3);
+insert into public.tbpessoa(pescodigo, pesnome, pessexo, pestipo, logcodigo) values(8, 'Tais', 2, 1, 2);
+insert into public.tbpessoa(pescodigo, pesnome, pessexo, pestipo, logcodigo) values(9, 'M�nica Presentes', 1, 2, 4);
+insert into public.tbpessoa(pescodigo, pesnome, pessexo, pestipo, logcodigo) values(10, 'Rivaldo', 1, 1, 5);
+
+insert into public.tbpessoacontato(pescodigo, ctpnumero, ctpdescricao, ctpramal) values(1, '4432-5526', 'Telefone Residencial', null);
+insert into public.tbpessoacontato(pescodigo, ctpnumero, ctpdescricao, ctpramal) values(1, '8822-5560', 'Telefone Celular', null);
+insert into public.tbpessoacontato(pescodigo, ctpnumero, ctpdescricao, ctpramal) values(1, '3351-2115', 'Telefone Comercial', 2115);
+insert into public.tbpessoacontato(pescodigo, ctpnumero, ctpdescricao, ctpramal) values(2, '1123-5526', 'Telefone Residencial', null);
+insert into public.tbpessoacontato(pescodigo, ctpnumero, ctpdescricao, ctpramal) values(3, '1124-5527', 'Telefonista', 15);
+insert into public.tbpessoacontato(pescodigo, ctpnumero, ctpdescricao, ctpramal) values(4, '9925-2265', 'Telefone Celular', null);
+insert into public.tbpessoacontato(pescodigo, ctpnumero, ctpdescricao, ctpramal) values(5, '6652-2445', 'Telefone Residencial', null);
+insert into public.tbpessoacontato(pescodigo, ctpnumero, ctpdescricao, ctpramal) values(6, '9952-2265', 'Telefone Celular', null);
+insert into public.tbpessoacontato(pescodigo, ctpnumero, ctpdescricao, ctpramal) values(10, '6658-2265', 'Telefone Residencial', null);
+insert into public.tbpessoacontato(pescodigo, ctpnumero, ctpdescricao, ctpramal) values(10, '9925-2256', 'Telefone Celular', null);
+insert into public.tbpessoacontato(pescodigo, ctpnumero, ctpdescricao, ctpramal) values(10, '3321-2265', 'Telefone Comercial', 2265);
+
+insert into public.tbimovel(pescodigo, imvdescricao, imvlargura, imvcomprimento, logcodigo) values(1, 'Im�vel de Alvenaria', 25, 52, 1);
+insert into public.tbimovel(pescodigo, imvdescricao, imvlargura, imvcomprimento, logcodigo) values(2, 'Terreno Comercial', 20, 30, 2);
+insert into public.tbimovel(pescodigo, imvdescricao, imvlargura, imvcomprimento, logcodigo) values(5, 'S�tio', 200, 1000, 5);
+insert into public.tbimovel(pescodigo, imvdescricao, imvlargura, imvcomprimento, logcodigo) values(4, 'Sala Comercial', 5, 10, 3);
+insert into public.tbimovel(pescodigo, imvdescricao, imvlargura, imvcomprimento, logcodigo) values(8, 'Apartamento - Cobertura', 50, 60, 4);
+insert into public.tbimovel(pescodigo, imvdescricao, imvlargura, imvcomprimento, logcodigo) values(10, 'Im�vel de Madeira', 20, 15, 3);
+
+select * from public.tblogradouro
+
+select * from public.tbpessoa
+
+select * from public.tbpessoacontato
+
+select * from public.tbimovel
+
+
+-- 2. A Rua 1 teve seu nome alterado para Rua 7766, 
+-- voc� dever� alterar o cadastro das pessoas que moram neste endere�o para o novo nome da rua;
+
+update tblogradouro set logdescricao = 'Rua 7766' where logcodigo = 1;
+
+-- 3. O Logradouro Carlos Gomes acaba de ser tornar uma Rua,
+-- seu tipo deve ser alterado de Avenida para Rua
+
+update tblogradouro set logtipo = 'Rua' where logdescricao = 'Carlos Gomes';
+
+-- 4. Todos os telefones residencias devem possuir o DDD relacionado, no caso (47)
+
+update tbpessoacontato set ctpnumero = '(47)' || ctpnumero;
+
+-- 5. Por descuido do funcion�rio que cadastra pessoas, ele indicou que pessoas Jur�dicas eram do sexo Masculino,
+-- deve-se alterar essas pessoas para sexo N�o informado
+
+update tbpessoa set pessexo = 0 where pestipo = 2;
+
+-- 6. Por determina��o universal todas as pessoas com nome Marta devem ser eliminadas do planeta,
+-- para tanto voc� dever� excluir essas pessoas da tabela
+
+-- coloquei 1 Maria a mais mas deveria ser Marta
+update tbpessoa set pesnome = 'Marta' where pescodigo = 5;
+
+delete from tbpessoacontato where pescodigo = 5;
+delete from tbimovel  where pescodigo = 5;
+delete from tbpessoa where pesnome = 'Marta';
+
+-- 7. Excluir a Rua S�o Paulo para ela n�o explodir
+-- Pessoas que moravam nesta rua fora deslocadas para a Travessa Pinheiros
+-- Deve-se atualizar todas as tabelas que envolvem os dados das moradias destas pessoas
+
+update tbpessoa set logcodigo = 3 where logcodigo = 5;
+delete from tblogradouro where logcodigo = 5;
+
+-- 8. Pedro acaba de vender seu Telefone Celular, a tabela de contatos da pessoa deve ser atlerada, excluindo a informa��o
+-- N�o fiz certo
+delete from tbpessoacontato where ctpnumero  = 2;

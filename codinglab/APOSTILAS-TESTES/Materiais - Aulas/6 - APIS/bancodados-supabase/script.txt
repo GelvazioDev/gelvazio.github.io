@@ -1,0 +1,18 @@
+create table usuario (
+  id serial not null,
+  email varchar(100) not null,
+  senha varchar(100) not null,
+  PRIMARY KEY (id)
+);
+
+--inserts 
+insert into usuario(email,senha) values ('gelvazio@gmail.com', '123456');
+insert into usuario(email,senha) values ('admin@gmail.com', '123456');
+insert into usuario(email,senha) values ('alex@gmail.com', '123456');
+insert into usuario(email,senha) values ('yasmin@gmail.com', '123456');
+insert into usuario(email,senha) values ('gleyson@gmail.com', '123456');
+insert into usuario(email,senha) values ('matheus@gmail.com', '123456');
+insert into usuario(email,senha) values ('brunoeduardo@gmail.com', '123456');
+
+--
+insert into auxilioemergencial(codigoibge, mesano, pagina, dados)values(4214805, 202101,1, '{"dados":"1"}');

@@ -1,0 +1,45 @@
+<?php
+/*******************************************************************************
+*Este é um código responsável por receber uma mensagem json por meio do método post
+*em seguida retorna uma resposta, também em Json.
+*
+*Por se tratar de um envio de dados entre uma plataforma diferente da outra, problemas além
+*dos problemas gerados pela falta de padronização de codificação de caractere(latin1, utf8, etc.) podem ser observados.
+*Sendo assim neste código pode ser observado funções que auxiliam na troca de caracteres especiais para 'entities'
+*/
+
+//##############################################################################
+// INICIO DO CÓDIGO DAS FUNÇÕES QUE SERÃO CHAMADAS
+//##############################################################################
+
+require "../../pattern/config.php";// carrega as constantes
+require "../../process/connectiondb.php";
+//variável usada nas funções de verificação de caracteres especiais
+$string = "";
+//Função que recebe todos os dados do dispositivo móvel
+function recebeParametroJson() {
+	//recebe o parametro com o texto JSON
+    $string = $_POST['temaCod'];   //primeiramente a string do json é recemida como qualquer parâmetro enviado via método post
+	//transforma a string JSON recebida em um array JSON para melhor manimulação do mesmo
+    //retorna o array json
+	return $string;
+}
+//##############################################################################
+// FINAL DO CÓDIGO DAS FUNÇÕES QUE SERÃO CHAMADAS
+//##############################################################################
+
+//##############################################################################
+// INICIO DO CÓDIGO DE EXECUÇÃO
+//##############################################################################
+
+//recebe os dados do Celular através da função acima
+$tema = recebeParametroJson();
+
+$questoes = DBRead('`provafacildb`.`questao`','where que_temCodigo = $tema');
+
+//transforma o array criado em uma string JSON
+$json_str = json_encode($questoes);
+
+//imprime json, enviando para o cliente
+echo $json_str;
+?>  

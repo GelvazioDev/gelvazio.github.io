@@ -1,0 +1,32 @@
+Banco de Dados
+Conceitos
+O que é um banco de dados?
+
+
+
+Existem 2 tipos basicos de Banco de dados
+-> Relacional 
+-> NoSql
+
+Relacional, relacionado diretamente a tabelas, tendo varias colunas para cada uma delas
+
+NoSQL, relacionado a objetos, e e composto por atributos do tipo chave->valor
+
+Principais tipos de banco de dados relacionais 
+Oracle
+SQL Server
+MySQL
+PostgreSQL,
+entre outros
+
+Principais tipos de bancos de dados NoSQL 
+MongoDB - tem opcao free
+Redis,
+Firebase - tem opcao free - Banco de dados criado pela google
+
+#Utilidade de bancos NoSQL -> usados para cacheamento de dados, 
+ou seja, como eles sao mais rapidos, sao usados para guardar dados de muito acesso
+como a sessao de um usuario, uma busca salva no banco de dados que pode demorar na 
+primeira busca mas depois busca direto do cache.
+
+

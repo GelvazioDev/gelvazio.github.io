@@ -1,0 +1,32 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>AdminLTE 2 | Dashboard</title>
+  <link rel="stylesheet" href="dist/css/login.css"
+</head>
+<body>
+  <div class="login-page">
+    <div class="form">
+      <form class="register-form">
+        <img class="logo" src="dist/img/logo.png"></img>
+        <input type="text" placeholder="nome"/>
+        <input type="password" placeholder="senha"/>
+        <input type="text" placeholder="email"/>
+        <button>criar conta</button>
+        <p class="message">Já é cadastrado? <a href="#"> Entrar</a></p>
+      </form>
+      <form class="login-form" name="cadPecas" method="post" action="../process/login.php">
+        <img class="logo" src="dist/img/logo.png"></img>
+        <input type="text" name="proNome" placeholder="usuario"/>
+        <input type="password" name=proSenha"" placeholder="senha"/>
+        <input type="hidden" name="loginx" value="1">
+        <button type="submit" formaction="index.html" value="Cadastrar">entrar</button>
+        <p class="message">Não é cadastrado?<a href="#"> Crie a sua conta aqui</a></p>
+      </form>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="dist/js/pages/login.js"></script>
+</body>
+</html>

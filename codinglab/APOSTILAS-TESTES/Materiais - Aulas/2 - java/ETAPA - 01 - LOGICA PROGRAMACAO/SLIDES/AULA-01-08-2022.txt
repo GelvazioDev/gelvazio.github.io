@@ -1,0 +1,34 @@
+
+#OPERADORES ATRIBUICAO
+operador atribuicao VisualG
+:=
+
+idade := 35;
+
+
+operador atribuicao JAVA 
+= 
+
+idade = 35;
+
+[dados aula 
+# operadores
+
+# controle fluxo
+
+# ajuda alunos 
+
+Douglas Bento 
+Bryan 
+Guilherme - faltou 1 semana e nao fez visualG
+Raissa e Leticia
+
+
+
+
+
+
+
+
+
+

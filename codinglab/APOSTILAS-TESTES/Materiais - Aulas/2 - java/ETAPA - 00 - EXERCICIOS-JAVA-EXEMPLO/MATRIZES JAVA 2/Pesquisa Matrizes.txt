@@ -1,0 +1,173 @@
+Cursos Loja VirtualFórumServiços PublicarAssineCompre Créditos
+Bem vindo a DevMedia!
+LOGIN:     SENHA:  Esqueci minha senha      Cadastre-se   
+ dê seu feedback       post favorito
+Matrizes: Vetores em Java - Parte 3
+Veja neste artigo o que são vetores bidimensionais ou matrizes em Java. A linguagem Java não fornece vetores multidimensionais, mas como um vetor pode ser declarado e ter qualquer tipo de base, é possível criar vetores de vetores (de vetores etc.), alcançando assim o mesmo efeito.
+ 0    
+Nos dois primeiros artigos sobre Vetores em Java foram abordados os vetores unidimensionais. Neste terceiro e último artigo serão abordados os vetores bidimensionais ou matrizes.
+
+Vetores bidimensionais (ou matrizes)
+A linguagem Java não fornece vetores multidimensionais, mas como um vetor pode ser declarado e ter qualquer tipo de base, é possível criar vetores de vetores (de vetores etc.), alcançando assim o mesmo efeito.
+
+A declaração de um vetor bidimensional para inteiros, de nome "m" em Java: 
+int m[][] = new int[2][4]; // matriz com 2 linhas X 4 colunas
+
+Representação interna:
+m[0][0]	m[0][1]	m[0][2]	m[0][3]
+m[1][0]	m[1][1]	m[1][2]	m[1][3]
+
+Fazendo referência a um elemento do vetor bidimensional:
+m[0][2] = 0;	// elemento da primeira linha, terceira coluna
+ 	// ou ainda, terceiro elemento do primeiro vetor
+m[i][j]	// elemento da i-ésima linha, j-ésima coluna
+
+Declarando vetores bidimensionais:
+1) Com expressões de criação de vetores: 
+int m[][] = new int[3][3]; // matriz quadrada: 3 linhas X 3 colunas
+2) Declarando e inicializando:
+int m[][] = { {1, 2, 3}, {4, 5, 6}, {7, 8, 9} };
+
+equivale as seguintes atribuições:
+// 1ª linha:
+m[0][0] = 1;
+m[0][1] = 2;
+m[0][2] = 3;
+
+// 2ª linha:
+m[1][0] = 4;
+m[1][1] = 5;
+m[1][2] = 6;
+
+// 3ª linha:
+m[2][0] = 7;
+m[2][1] = 8;
+m[2][2] = 9;
+3) Com linhas de diferentes tamanhos:
+int m[][] = new int[2][];  // cria 2 linhas
+
+m[0] = new int[5];  // cria 5 colunas para a linha 0
+m[1] = new int[3];  // cria 3 colunas para a linha 1
+4) Declarando e inicializando linhas de diferentes tamanhos:
+int m[][] = { {1, 2}, {4, 5, 6, 7, 8}, {9, 10, 11} };
+
+equivale as seguintes atribuições:
+// 1ª linha com duas colunas:
+m[0][0] = 1;
+m[0][1] = 2;
+
+// 2ª linha com 5 colunas:
+m[1][0] = 4;
+m[1][1] = 5;
+m[1][2] = 6;
+m[1][3] = 7;
+m[1][4] = 8;
+
+// 3ª linha com 3 colunas:
+m[2][0] = 9;
+m[2][1] = 10;
+m[2][2] = 11; 
+
+Para conhecer os tamanhos dos vetores deve-se utilizar o campo length:
+a) m.length determina o número de linhas
+b) m[i].length determina o número de colunas da i-ésima linha
+
+Percorrendo vetores bidimensionais com linhas de diferentes tamanhos:
+int m1[][] = { {1, 2, 3, 4}, {5, 6} };
+int m2[][] = { {1, 2}, {3}, {4, 5, 6} };
+ 
+m.length
+m[i].length	determina o número de linhas
+determina o número de colunas da i-ésima linha
+
+int i, j;
+for (i=0; i<m.length; i++) {
+   System.out.printf("%da. linha: ", (i+1));
+   for (j=0; j<m[i].length; j++) {
+      System.out.printf("%d ", m[i][j]);
+   }
+   System.out.printf("\n");
+}
+ 
+Resultado com "m1":
+1a. linha: 1 2 3 4
+2a. linha: 5 6
+ 	Resultado com "m2":
+1a. linha: 1 2
+2a. linha: 3
+3a. linha: 4 5 6
+
+Exemplos de aplicações Java utilizando vetores bidimensionais ou matrizes:
+
+import java.util.Scanner;
+
+public class Matriz1 {
+  public static void main(String[] args) {
+    Scanner ler = new Scanner(System.in);
+    int i, j, m[][] = new int[2][4];
+
+    for (i=0; i<2; i++) {
+      System.out.printf("Informe os elementos %da. linha:\n", (i+1));
+      for (j=0; j<4; j++) {
+        System.out.printf("m[%d][%d] = ", i, j);
+        m[i][j] = ler.nextInt();
+      }
+      System.out.printf("\n");
+    }
+
+    System.out.printf("\n");
+    for (i=0; i<2; i++) {
+      System.out.printf("%da. linha: ", (i+1));
+      for (j=0; j<4; j++) {
+        System.out.printf("%d ", m[i][j]);
+      }
+      System.out.printf("\n");
+    }
+  }
+}
+
+Listagem 1- Alimentando e mostrando os valores de uma matriz 2 X 4.
+
+
+public class Matriz2 {
+  public static void main(String[] args) {
+    int n = 6;
+    int i, j, m[][] = new int[n][n];
+
+    for (i=0; i<n; i++) {
+      for (j=0; j<n; j++) {
+        if (i == j) // diagonal principal
+           m[i][j] = 0;
+        else if ((i+j) == (n-1)) // diagonal secundária
+                m[i][j] = 1;
+// sorteia um número aleatório no intervalo de 2 até 5
+             else m[i][j] = (int)(Math.round(Math.random() * 2) + 3); //
+      }
+    }
+
+    for (i=0; i<n; i++) {
+      System.out.printf("%da. linha: ", (i+1));
+      for (j=0; j<n; j++) {
+        System.out.printf("%d ", m[i][j]);
+      }
+      System.out.printf("\n");
+    }
+  }
+}
+
+Listagem 2- Matriz quadrada: diagonal principal e diagonal secundária.
+
+Ilustrando a execução das aplicações:
+Listagem 1:	Listagem 2:
+ 
+
+Referência:
+Peter Jandl Junior. Introdução ao Java. São Paulo: Berkeley - 2002.
+
+Com este terceiro artigo concluímos nossa abordagem sobre vetores em Java.
+
+Obrigado e um abraço.
+
+
+
+Leia mais em: Matrizes: Vetores em Java - Parte 3 http://www.devmedia.com.br/matrizes-vetores-em-java-parte-3/21573#ixzz25Y9vuuGT

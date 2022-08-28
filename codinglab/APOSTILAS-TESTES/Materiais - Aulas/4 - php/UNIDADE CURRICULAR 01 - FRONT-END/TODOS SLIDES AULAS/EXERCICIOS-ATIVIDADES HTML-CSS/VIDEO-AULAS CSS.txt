@@ -1,0 +1,32 @@
+[Lista de videos Youtube
+
+Dicas de HTML e CSS - lista de videos
+https://www.youtube.com/watch?v=01LM_oGn65A&list=PLnDvRpP8BnewA-_Z1NYnKvATCrAA1Tg7S
+
+#Tela de login - 38 min
+https://www.youtube.com/watch?v=69-WfrVBli8&feature=youtu.be
+
+#Tela de login 2 - 20 min
+https://www.youtube.com/watch?v=t2sAcA5CAcI
+
+[VALIDACAO DE FORMS COM JAVASCRIPT
+MAYKI BRITO 61 MIN 
+https://www.youtube.com/watch?v=GTMEuHxh8aQ
+
+[LISTA DE ASSUNTOS AULA
+FRAMEWORK
+TAILWIND CSS 
+
+[CSS GRID E FLEX 
+
+https://www.youtube.com/watch?v=x-4z_u8LcGc&t=898s
+
+CSS GRID Maiki brito
+https://www.youtube.com/watch?v=HN1UjzRSdBk&t=1934s
+
+
+
+
+
+
+

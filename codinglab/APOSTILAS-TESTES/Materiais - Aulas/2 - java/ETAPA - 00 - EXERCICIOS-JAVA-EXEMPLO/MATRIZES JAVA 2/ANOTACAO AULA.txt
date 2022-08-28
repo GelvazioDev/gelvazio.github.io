@@ -1,0 +1,75 @@
+MATRIZ DE CUSTO
+Tem por caracterisitica representar o cust de cada aresta representada no GRAFO.
+Segue as mesmas caracteristicas da MATRIZ de ADJACENCIA,sendo que as arestas
+paralelas sao representadas de acordo com a especificidade de cada problema.
+Tal repreentação,podera ser feita atraves de vetores ou lista encadeada.
+
+Onde tem incidencia a gente substitui com o valor.
+Quado tem uma Aresta Paralela, uma alternativa e colocar o menor valor.
+
+Outra forma e conforme abaixo:
+Colocaria-se duas posicoes no local de duas arestas.
+
+
+ DISTANCIA DA ESTRADA
+ TIPO DE PAV
+ MOVIMENTACAO
+
+CUSTO COM A FUNCAO ABAIXO:
+
+TIPO DE PAVIMENTACAO ASFALTO
+
+FORMULA DO CUSTO=
+T(X)=D*TIP.PAV.*MOV
+
+PAVIMENTACAO	CALCULO	TRAFEGO		CALCULO
+ASFALTO	        *1	POUCO	  =1	*1
+CALCAMENTO	*1,3	RAZOAVEL  =2	*1,2
+SEM PAV.	*1,6	MUITO	  =3	*1,5
+
+
+ANOTAÇÃO
+LISTA DE ARESTAS
+Se um Grafo for esparso(tiver poucas arestas), sua melhor forma de reperesenta-lo e atraves de duas listas de 
+Vertices,as quais podem ser implemetadas como Vetores.
+
+
+fORMULAS DO SISTEMA
+CUSTO TOTAL DA DISTANCIA(PAVIMENTAÇÃO)
+=SE(J9=$H$4;I9*$H$4;SE(J9=$H$5;I9*$I$5;SE(J9=$H$6;I9*$I6)))
+
+
+
+CUSTO TOTAL DA MOVIMENTACAO
+
+=SE(K9=$E$4;I9*$F$4;SE(K9=$E$5;I9*$F$5;SE(K9=$E$6;I9*$F$6)))
+
+
+=SOMA(N9:O9)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

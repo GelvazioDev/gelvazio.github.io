@@ -1,0 +1,42 @@
+pesquisas aula 
+	FEITO=> https://rockcontent.com/br/talent-blog/frameworks-css/
+	
+	=> https://www.lewagon.com/pt-BR/blog/melhores-frameworks-desenvolvimento-web
+	
+	=> https://becode.com.br/frameworks-front-end-mais-amados-segundo-github/
+	
+	Bootstratp, Angular, Vue.js, Svelte, React.js->
+	https://ezdevs.com.br/6-frameworks-front-end-mais-utilizados-no-mercado-de-tecnologia/
+	
+AULA PRATICA - Frameworks para estruturação de páginas: conceitos, exemplos - REACT, ANGULAR, VUE.JS, SVELTE
+ANALISAR POSSIBILIDADE DE PASSAR VUE.JS NA SALA:
+
+listar frameworks php
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

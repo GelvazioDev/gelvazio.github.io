@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deck Of Cards</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="loadNewGame()">
+    <input type="hidden" value="" id="deckid">
+    <input type="hidden" value="0" id="playerid">
+
+    <h1 style="text-align: center;">Start new Game</h1>
+
+    <table class="container-table">
+        <thead>
+            <tr>
+                <th class="containerTable-lblTitle">Jogador</th>
+                <th class="containerTable-lblTitle">Codigo</th>
+                <th class="containerTable-lblTitle">Imagem</th>
+                <th class="containerTable-lblTitle">Naipe</th>
+                <th class="containerTable-lblTitle">Valor</th>
+                <th class="containerTable-lblTitle">svg</th>
+                <th class="containerTable-lblTitle">png</th>
+            </tr>
+        </thead>
+        <tbody class="containerTable-body">
+            <!--PREENCHIDO ATRAVES DE JAVASCRIPT!!!-->
+        </tbody>
+    </table>
+
+</body>
+
+<!-- Uso de defer para aguardar o arquivo carregar todo -->
+<script defer src="js/deckofcards.js"></script>
+
+</html>

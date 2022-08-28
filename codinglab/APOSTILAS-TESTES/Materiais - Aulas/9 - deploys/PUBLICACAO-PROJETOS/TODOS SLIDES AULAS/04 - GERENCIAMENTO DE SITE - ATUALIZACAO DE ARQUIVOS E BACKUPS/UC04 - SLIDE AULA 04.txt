@@ -1,0 +1,15 @@
+#SLIDE 01
+A maioria das pessoas já sabem o que é servidor em nuvem. Mas já parou para pensar que horrível
+seria se seus dados fossem corrompidos e você os perdesse? Até dá para tentar recuperá-los, mas há
+um custo considerável para que isso seja feito. Para evitar esse tipo de problema, a Nuvem pode ser
+uma solução. Mas não podemos confundir os serviços de sincronismo(os chamados Cloud Sync)
+com os serviços de armazenamento online(Cloud Storage).
+Cloud Backup: Trata-se de uma cópia do dado. Com ele, você pode recuperar o backup do
+arquivo que foi feito em determinada data em específico e terá acesso a exatamente o arquivo que
+existia naquele momento do backup.
+Cloud Storage: São espaços virtuais na internet onde você pode gravar seus arquivos, sem
+necessariamente utilizar um aplicativo de sincronismo. É mais como um pendrive ou um HD externo,
+porém, em nuvem.
+
+#SLIDE 02
+

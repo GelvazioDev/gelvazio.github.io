@@ -1,0 +1,467 @@
+[SLIDE 01
+Cloud Computing, VPS, Hospedagem Compartilhada e Servidor Dedicado
+Elementos da Competência
+Tecnologias de Servidor web: conceitos e princípios de funcionamento.
+Serviços de hospedagem: gratuitos, pagos, compartilhados e dedicados.
+
+[SLIDE 02
+Cloud Computing: o que é e para que serve?
+
+De uma forma simples, cloud computing, ou computação na nuvem, é uma tecnologia que permite acesso remoto a softwares, 
+armazenamento de arquivos e processamento de dados por meio da internet. 
+É uma alternativa para você acessar dados importantes de qualquer computador, em qualquer lugar.
+
+Este mecanismo oferece aos indivíduos e às empresas a capacidade de um pool de recursos digitais com boa manutenção,
+seguro, de fácil acesso e sob demanda como servidores, armazenamento de dados e software de aplicativo.
+
+O cloud computing proporciona às empresas mais flexibilidade em relação a dados e informações, 
+que podem ser acessados a qualquer hora. É ideal para empresas com sedes ao redor do mundo ou 
+em diferentes ambientes de trabalho, abrangendo locais remotos. Com o mínimo de gerenciamento, 
+todos os elementos de software da computação na nuvem podem ser dimensionados sob demanda: 
+você precisa apenas de uma conexão à internet.
+
+[SLIDE 03
+Lista dos Servidores de Nuvem mais comuns
+
+#AMAZON WEB SERVICES
+Empresa:AMAZON
+Site da empresa:https://aws.amazon.com/pt/
+Site Nuvem Cloud:https://aws.amazon.com/pt/
+Valor de Mercado: US$ 249,2 bilhões
+
+[SLIDE 03.1
+#SALESFORCE CLOUD
+Empresa:SALESFORCE
+Site da empresa:https://www.salesforce.com/br/
+Site Nuvem Cloud:https://www.salesforce.com/br/products/sales-cloud/features/
+Valor de Mercado: US$ 202,97 bilhões
+Curiosidade:Dona do Heroku e comprou Slack por US$ 27,7 bilhões.
+
+[SLIDE 03.2
+#GOOGLE CLOUD PLATFORM 
+Empresa:GOOGLE
+Site da empresa:www.google.com
+Site Nuvem Cloud:https://cloud.google.com/
+Valor de Mercado: US$ 2 trilhões
+
+[SLIDE 03.3
+#ALIBABA CLOUD
+Empresa:Grupo Alibaba
+Site da empresa:https://www.alibaba.com/
+Site Nuvem Cloud:https://us.alibabacloud.com/
+Valor de Mercado: US$ 358 bilhões
+Curiosidade:valor de mercado na IPO(abertura na bolsa) chegou a ser US$ 846 bilhões 
+em fim de 2020, mas caiu 57% desde então.
+
+[SLIDE 03.4
+#IBM CLOUD
+Empresa:IBM 
+Site da empresa:https://www.ibm.com/br-pt/products/cloud-pak-for-data
+Site Nuvem Cloud:https://cloud.ibm.com/login
+Valor de Mercado: US$ 113,94 bilhões
+
+[SLIDE 03.5
+#WINDOWS AZURE
+Empresa:MICROSOFT
+Site da empresa:https:www.microsoft.com
+Site Nuvem Cloud:https://azure.microsoft.com/pt-br/
+Valor de Mercado:US$ 2,272 trilhões
+
+[SLIDE 03.6
+#TENCENT CLOUD - 
+Empresa:Tencent
+Site da empresa:https://intl.cloud.tencent.com/pt/
+Site Nuvem Cloud:https://intl.cloud.tencent.com/pt/
+Valor de Mercado:US$ 550 bilhões
+
+[SLIDE 03.7
+#ORACLE CLOUD 
+Empresa:ORACLE
+Site da empresa:https://www.oracle.com/br
+Site Nuvem Cloud:https://www.oracle.com/br/cloud/
+Valor de Mercado: US$ 203,65 bilhões
+
+[SLIDE 03.8
+#ACCENTURE
+Empresa:ACCENTURE
+Site da empresa:https://www.accenture.com/
+Site Nuvem Cloud:https://www.accenture.com/br-pt/services/cloud-index
+Valor de Mercado: US$ 198,55 bilhões
+
+[SLIDE 03.9
+#CLOUD SIGMA 
+Empresa:CloudSigma
+Site da Empresa e Cloud:https://www.cloudsigma.com/
+Valor de Mercado: US$ 0,0 bilhões
+
+[SLIDE 03.10
+#VMWARE
+Empresa:VMWARE
+Site da empresa:https://www.vmware.com/
+Site Nuvem Cloud:https://www.vmware.com/cloud-solutions.html
+Valor de Mercado: US$ 59,44 bilhões
+
+[SLIDE 03.11
+#DIGITAL OCEAN
+Empresa:DIGITAL OCEAN
+Site da empresa:https://www.digitalocean.com/
+Site Nuvem Cloud:https://www.digitalocean.com/solutions/vpn
+Valor de Mercado: US$ 10 bilhões
+
+[SLIDE 03.12
+#Hyve 
+Empresa:hive
+Site da empresa:https://www.hyve.com/
+Site Nuvem Cloud:https://www.hyve.com/
+Valor de Mercado: US$ 355,27 milhões
+
+
+Pesquisa maiores cloud 
+https://mageda.digital/blog/maiores-empresas-de-cloud-computing/
+
+
+[SLIDE 04
+Como funciona a computação na nuvem?
+O cloud computing utiliza uma camada de rede para conectar desde os dispositivos 
+de ponto periférico dos usuários, como computadores, smartphones e acessórios portáteis,
+ a recursos centralizados no data center. Ele conta com diferentes modelos de serviço:
+
+[SLIDE 04.1
+SaaS
+O modelo SaaS  – software como serviço de computação na nuvem – é o mais conhecido entre as empresas. 
+Ele disponibiliza o aplicativo de software ao usuário por meio de uma interface de navegador ou 
+de programa e faz com que a rede subjacente, o sistema operacional e os recursos funcionem nos bastidores. 
+Não é necessário comprar o software, pois o serviço é contratado por meio de assinaturas que dão permissão de acesso. 
+Logo, o uso dos aplicativos pode ser feito de qualquer dispositivo conectado à internet.
+
+[SLIDE 05
+PaaS
+O modelo PaaS – plataforma como serviço – aproveita os benefícios da computação 
+na nuvem enquanto mantém a liberdade de desenvolver aplicações personalizadas de software. 
+Os usuários podem acessar a PaaS da mesma maneira que fazem com o aplicativo SaaS. 
+O provedor é responsável pela manutenção do sistema operacional, da rede, dos servidores e da segurança. 
+Pode haver também abstrações em nível de aplicativo que aceleram o desenvolvimento de apps 
+e a implementação de vários dispositivos. Fora isso, uma plataforma tradicional em execução 
+em um pool remoto vai gerar alguns benefícios de capacidade flexível, 
+mas não se pode esperar que acelere a inovação da empresa.
+
+[SLIDE 06
+IaaS
+O modelo IaaS – infraestrutura como serviço –  é o modelo de serviço com maior 
+nível de flexibilidade e controle sobre os recursos de tecnologia. 
+Ele proporciona às organizações a capacidade de aproveitar recursos 
+brutos do servidor enquanto o restante do gerenciamento da plataforma e do software é de responsabilidade da empresa. 
+Isso permite capacidade extra sem a preocupação com requisitos de hardware.
+
+[SLIDE 07
+Tipos de Cloud Computing 
+No mundo da computação, uma nuvem representa uma vasta rede de cabos, servidores e serviços de software fornecidos. 
+Vamos observar com mais detalhes algumas das diferentes opções de nuvem:
+
+[SLIDE 08
+Tipos de Cloud Computing - Nuvem Privada
+Constituída de uma só organização com sua própria nuvem de servidores 
+e software para a utilização sem um ponto de acesso público.
+
+[SLIDE 09
+Tipos de Cloud Computing - Nuvem Pública
+Diversas empresas podem usar de maneira simultânea, mas separadamente. 
+O provedor da nuvem é responsável pela manutenção e segurança.
+
+[SLIDE 10
+Tipos de Cloud Computing - Nuvem Híbrida
+Composta de duas ou mais infraestruturas de nuvens distintas que permanecem como entidades únicas, 
+mas que estão unidas por uma tecnologia padronizada ou proprietária.
+
+[SLIDE 11
+Tipos de Cloud Computing - Nuvem Comunitária
+Diferentes empresas ou organizações reúnem em pool seus recursos na nuvem para resolver um problema comum.
+
+[SLIDE 12
+Por que usar Cloud Computing? - Para Dispensar o Hardware
+Quando uma empresa fornece seu próprio software, é preciso pensar nos servidores, 
+que exigem uma fonte de alimentação dedicada e peças de substituição. 
+Além disso, também precisam de configuração e monitoramento e de um time de especialistas de plantão para resolver problemas.
+
+Quando o software é baseado na nuvem, essas preocupações e os custos flutuantes – e potencialmente altos – 
+com infraestrutura desaparecem substancialmente, pois os valores são previsíveis. 
+O provedor de computação na nuvem é responsável por lidar com essas preocupações. 
+Ele deve assegurar que o processo seja tranquilo e ininterrupto em troca de um custo de software fixo e razoável.
+
+[SLIDE 13
+Por que usar Cloud Computing? - Para aumentar a segurança
+A computação na nuvem é extremamente segura e reduz a necessidade de contratação de times internos de TI. 
+Ela permite também implementar práticas e tecnologias de segurança de ponta, orientadas por uma visão mais 
+ampla dos padrões globais de ameaças em relação àquelas da maioria dos governos locais. 
+Com dezenas ou centenas de usuários possivelmente em risco de exposição a programas maliciosos, 
+manter as organizações seguras pode ser muito caro.
+
+[SLIDE 14
+Por que usar Cloud Computing? - Para aumentar a segurança
+Os provedores de cloud computing trabalham com um orçamento bem maior. Como precisam garantir 
+a segurança de todos os clientes, cada empresa obtém benefícios do grande grupo, significando 
+um nível de segurança mais elevado para todos. Com uma infraestrutura fortalecida, 
+monitoramento cuidadoso e aplicação de protocolos de segurança, a computação na nuvem 
+pode oferecer a empresas de pequeno e médio porte a mesma proteção das organizações com requisitos altamente exigentes.
+
+[SLIDE 15
+Por que usar Cloud Computing? - Colocando todos no mesmo nível
+A computação na nuvem tem a capacidade de colocar todos no mesmo nível. 
+Não importa se você tem dezenas ou milhares de usuários na plataforma, 
+o cloud computing democratiza o aplicativo de software corporativo. 
+Com flexibilidade para aumentar ou reduzir o compartilhamento de um cliente no pool rapidamente, 
+algumas vezes de modo automático, o usuário final normalmente não precisa estar ciente do que acontece na nuvem. 
+Ele precisa apenas fazer login e trabalhar na tarefa.
+
+[SLIDE 16
+Principais características do Cloud Computing - Sob demanda
+Não é preciso consultar alguém ou ter um profissional de TI envolvido no provisionamento do servidor ou do armazenamento na rede.
+Você tem a capacidade de computação necessária quando precisa.
+
+[SLIDE 17
+Principais características do Cloud Computing - Multiplataforma
+Basta ter uma conexão à internet para acessar o serviço em seu laptop, tablet, smartphone ou computador desktop.
+
+[SLIDE 18
+Principais características do Cloud Computing - Recursos em pool
+Segue o modelo de multilocatários, o que significa que há vários usuários do software.
+
+[SLIDE 19
+Principais características do Cloud Computing - Flexibilidade rápida
+O usuário tem uma experiência que é dimensionada com base na demanda e na utilização real. 
+Imagine um hotel que possa mudar o tamanho da cama de queen size para king size no mesmo "quarto".
+
+[SLIDE 20
+Principais características do Cloud Computing - Serviço medido
+A utilização de recursos é monitorada, controlada e relatada antecipadamente. 
+Isso torna a capacidade de computação essencialmente a mesma em relação a um serviço de utilitários pago.
+
+[SLIDE 21
+6 motivos para mudar para o Cloud Computing
+Recuperação após desastres
+Atualizações automáticas de software
+Capacidade de trabalhar remoto
+Segurança
+Consciência ecológica
+
+[SLIDE 22
+6 motivos para mudar para o Cloud Computing - Recuperação após desastres
+Os provedores de computação na nuvem lidam com questões de recuperação com mais agilidade 
+do que as recuperações que não são baseadas na nuvem.
+
+[SLIDE 23
+6 motivos para mudar para o Cloud Computing - Atualizações automáticas de software
+Os provedores de computação na nuvem são responsáveis pela manutenção do servidor, incluindo atualizações de segurança.
+
+[SLIDE 24
+6 motivos para mudar para o Cloud Computing - Capacidade de trabalhar remoto
+Os funcionários precisam apenas ter acesso à internet para trabalhar de qualquer lugar.
+
+[SLIDE 25
+6 motivos para mudar para o Cloud Computing - Colaboração
+Todos os funcionários podem compartilhar aplicativos e documentos ao mesmo tempo.
+
+[SLIDE 26
+6 motivos para mudar para o Cloud Computing - Segurança
+Os dados armazenados na nuvem podem ser acessados de qualquer lugar, independente da perda ou danos de um ou mais dispositivos.
+
+[SLIDE 27
+6 motivos para mudar para o Cloud Computing - Consciência ecológica
+A computação na nuvem usa apenas o espaço necessário no servidor, reduzindo a pegada de carbono da empresa.
+
+[SLIDE 28
+SERVIDORES VPS 
+O Virtual Private Server é um tipo de servidor virtual privado. 
+Um servidor é o local onde são armazenados arquivos e dados relacionados a um negócio. 
+O fato de ser virtual significa que não se trata de local físico, 
+mas armazenado virtualmente no sistema do computador. Já o termo privado significa que é de uso exclusivo de um sistema web,
+ apenas. Dessa forma, a hospedagem é única e não há compartilhamento com outros sistemas web.
+
+[SLIDE 28.1
+É muito comum a hospedagem em servidores compartilhados, nos quais os sistemas web armazenados 
+dividem espaço e recursos com diversos outros sites, blogs, e-commerces, extranets, etc, 
+todos hospedados no mesmo servidor. Já no caso do servidor dedicado ou privado, a máquina física (servidor)
+ hospeda apenas um sistema web, ou seja, o mesmo é dedicado a um sistema web apenas e administrado 
+ por um cliente cada servidor dedicado ou instância de VPS.
+ 
+[SLIDE 29
+Como funciona um servidor VPS?
+O servidor é dividido em ambientes virtualizados. Há um servidor físico e dentro desse servidor (máquina) 
+há as divisões de servidores virtuais.
+
+Os recursos e capacidades do servidor virtual são definidos e separados em cada ambiente virtualizado.
+Assim, temos divisões que são áreas privadas e exclusivas para cada sistemas web hospedado em cada servidor virtual.
+Esse particionamento assegura que, por exemplo, um site hospedado em nada influenciará outro site 
+hospedado no mesmo servidor, uma vez que cada site possui seu próprio servidor virtual, 
+com recursos dedicados ao mesmo. O VPS utiliza ainda o seu próprio sistema operacional e assim,
+fica independente do funcionamento do sistema operacional do servidor físico que armazena os servidores virtuais.
+
+[SLIDE 30
+Vantagens do servidor VPS
+Para soluções que necessitam de maior espaço de armazenamento, é uma boa opção. 
+Isso porque o espaço pode ser redimensionado entre os VPS, caso haja necessidade;
+
+Há maior garantia de confidencialidade e segurança dos dados, uma vez que cada negócio possui seus 
+dados mantidos separadamente nos servidores virtuais;
+
+Caso haja necessidade de reiniciar um servidor VPS, bem como realizar alguma configuração ou atualização 
+no mesmo, nenhum outro servidor virtual será afetado;
+
+O custo por manter um servidor VPS costuma ser mais acessível que uma solução Cloud ou Dedicado devido a 
+facilidade de dividir os custos totais para manter o servidor, com todos os “hóspedes” dos servidores virtuais.
+
+Maior liberdade para administrar e customizar suas aplicações web e segurança das aplicações web.
+
+[SLIDE 31
+Desvantagens do servidor VPS
+A vantagem da liberdade pode ser encarada como uma desvantagem uma vez que a responsabilidade de manutenção 
+de cada servidor virtual é do proprietário da hospedagem, que normalmente acabam contando com empresas 
+especializadas como a Bug BusterS para fazer essa administração mais técnica, o que oferece a vantagem 
+de maior qualidade dos serviços web mas gera a desvantagem de custos adicionais.
+
+Se o servidor físico que armazena os servidores virtuais tiver algum problema e ficar indisponível, 
+todos os VPS que estão armazenados nele ficarão também;
+
+A performance da máquina física pode ficar comprometida caso haja alta demanda de acessos nos VPS ao mesmo tempo, 
+se a máquina física não estiver preparada para tal situação. Apesar de serem máquinas virtuais com garantia de recursos, 
+existem recursos mais difíceis de se garantir como o throughput de disco (I/O), que acaba sendo compartilhado e 
+pode ser impactados por uso inadequado de um usuário ou conjunto de vários usuários ao mesmo tempo, contudo, 
+o provedor consegue identificar e mitigar o problema mais rapidamente do que no compartilhado;
+
+[SLIDE 32
+Desvantagens do servidor VPS
+O sistema operacional utilizado é o da máquina física. Assim, não há liberdade de escolha entre os usuários dos VPS, 
+ou seja, se estiver em um VPS Microsoft, as VPS entregará Microsoft, se quiser mudar, terá de reinstalar ou mover 
+a aplicação para outro VPS que seja Linux, por exemplo;
+
+Há um limite físico de recursos de hardware no servidor. 
+Dessa forma, se ocorrer a utilização da capacidade máxima de armazenamento ou memória, por exemplo, 
+haverá necessidade de expansão destes recursos ou terá de mover sua hospedagem para outro tipo ou 
+outro servidor VPS que ainda tenha recursos disponíveis. Pois o VPS não oferece o recurso de escalonamento,
+ que passa a ser disponível nos servidores Cloud ou com um grupo de servidores dedicados
+
+
+[SLIDE 33
+Quais diferenças entre VPS, Cloud e servidor dedicado?
+Características do servidor tipo VPS
+Oferece boa performance, pois, as configurações são exclusivas para cada servidor virtualizado;
+Cada um desses servidores virtuais disponíveis na nuvem é considerado dedicado;
+Possui o perfil de administrador em cada servidor virtual particionado, garantindo maior autonomia para o contratante;
+Os servidores virtuais não possuem quantidade de armazenamento fixa, como um servidor físico. 
+Já o servidor físico que armazena os servidores virtuais, sim. O que faz com que muitas vezes, 
+quando se precisa de mais recursos, o provedor sugira a troca do tipo de hospedagem VPS ou para um servidor Cloud ou dedicado;
+O valor cobrado pela hospedagem é baseado em cada servidor virtual e não no servidor físico em si. 
+Isso torna o preço mais acessível, pois, você paga somente pelo que usa.
+
+
+[SLIDE 34
+Quais diferenças entre VPS, Cloud e servidor dedicado?
+Características do servidor tipo Cloud
+O servidor Cloud possui características muito semelhantes ao VPS. 
+A principal diferença é que não se trata de uma máquina física apenas, como é o caso do VPS ou do servidor físico dedicado. 
+São diversas máquinas físicas que interagem entre si para manter os servidores virtuais disponíveis na nuvem, 
+dividindo recursos para que uma assuma o controle caso a outra fique fora do ar.
+
+[SLIDE 35
+Quais diferenças entre VPS, Cloud e servidor dedicado?
+Características do servidor tipo Cloud
+No entanto, há algumas outras características que o diferenciam do VPS:
+O Cloud não possui limitação física de armazenamento. Uma vez que o mesmo está sob um conjunto de servidores 
+espalhados por diversos datacenters, e no caso deste conjunto precisar de mais recursos, novos servidores físicos 
+podem ser adicionados ao pool, conjunto de máquinas;
+
+Trata-se de uma solução escalável;
+Cada “hóspede” da nuvem pode selecionar o sistema operacional que desejar;
+O excesso de acessos simultâneos de uma partição, não influenciará em nada as demais;
+Maior segurança, flexibilidade e escalabilidade a um preço moderado.
+
+[SLIDE 36
+Características do servidor dedicado
+As características que prevalecem nesse tipo de servidor são:
+
+A escalabilidade está limitada ao tipo de hardware físico que é escolhido no plano. 
+Servidores podem, por exemplo, vir com 1TB de disco mas permitir upgrade até mais de 10TB;
+
+O servidor pode ser exclusivamente dedicado a uma única hospedagem ou pode ser compartilhado, 
+hospedando diversos sites ou blogs ao mesmo tempo. Quem decide o que fazer do servidor é o cliente. 
+Ou seja, para o cliente ele é totalmente dedicado para sua necessidade e administração. 
+Empresas contratam servidor dedicado, criam um ambiente e revendem esses recursos em formato 
+de servidor compartilhado ou VPS aos clientes;
+
+Autonomia total do cliente, que escolhe inclusivo o sistema de virtualização que quiser;
+Normalmente entrega muito mais throughput de disco (I/O) do que as demais soluções;
+
+Alguns projetos que envolvem segurança máxima como, por exemplo, algumas aplicações financeiras, 
+exigem o uso de servidores dedicados;
+
+[SLIDE 37
+HOSPEDAGEM COMPARTILHADA
+
+Entenda a hospedagem compartilhada como morar num apartamento onde você tem que compartilhar o acesso a lugares como a piscina, 
+o quintal e o estacionamento. O seu site vai compartilhar os mesmos recursos – como CPU, espaço em disco e memória – 
+de outros  usuários que estão no mesmo servidor de hospedagem compartilhada.
+
+A hospedagem compartilhada é também conhecida como a hospedagem de site barata. Porém, ela pode apresentar alguns contras: 
+seu site pode ter uma largura de banda limitada e ficar lento quando houver muito tráfego nos sites que estão 
+no mesmo servidor que o seu.
+
+Ou seja, pela nossa analogia, você pode aproveitar uma piscina quando ela não está muito 
+cheia, mas você ainda tem que ficar de olho para quando todo mundo for entrar e as coisas 
+forem ficar apertadas. A hospedagem compartilhada é bem assim.
+
+[SLIDE 38
+Por Que Escolher Hospedagem Compartilhada?
+Você está criando um blog ou site pessoal
+Quer criar um site para uma empresa pequena ou média
+Possui um orçamento pequeno
+Não sabe muito sobre desenvolvimento web
+
+[SLIDE 39
+Por Que Escolher Hospedagem Compartilhada? - Pontos Positivos
+Pontos Positivos
+Mais amigável para iniciantes
+Possui configuração padronizada
+Requer menos expertise técnica
+É o plano de hospedagem mais barato de todos
+
+[SLIDE 40
+Por Que Escolher Hospedagem Compartilhada? - Pontos Negativos
+Pontos Negativos
+Geralmente tem menos largura de banda e armazenamento do que VPS
+É propícia a erros quando há muito tráfego
+Acesso limitado ao back-end
+Não oferece acesso root
+
+[SLIDE 41
+Hospedagem Compartilhada ou VPS: Um Comparativo site da Hostinger
+
+Colocar tabela de comparacao de preços das imagems
+
+[SLIDE 42
+Hospedagem Compartilhada ou VPS: qual escolher?
+O plano de hospedagem que você vai escolher depende muito das suas necessidades. 
+Como vimos acima, um plano de Hospedagem VPS traz vantagens que um plano compartilhado não possui.
+
+Contudo, existem benefícios em ambas as opções de hospedagem.
+
+Antes de escolher seu plano de hospedagem, você pode considerar qual 
+é o melhor ao olhar novamente para alguns indicadores importantes que mencionamos acima:
+
+Segurança e Desempenho. 
+Com a hospedagem compartilhada, você essencialmente está compartilhando espaço com outros usuários no servidor. 
+A hospedagem VPS é muito mais estável e segura, mas exige conhecimento técnico adicional.
+
+Administração de Servidor. 
+A hospedagem compartilhada é muito mais adequada para iniciantes do que a VPS, 
+mas ainda assim fica devendo a liberdade de customização da opção anterior.
+
+Escalabilidade. 
+A hospedagem VPS é muito mais preparada para o futuro do que a compartilhada.
+
+Preço. Ambos os planos possuem preços diferentes como benefícios distintos, mas a compartilhada sai mais barato do que a VPS.
+No final das contas, a decisão depende de caso você estar começando e
+não precisar de quaisquer recursos adicionais que outros tipos de hospedagem têm a oferecer. 
+ 
+
+
+

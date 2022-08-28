@@ -1,0 +1,80 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package AULA_04_09_2012;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author geo
+ * Matriz devera ser conforme abaixo
+ * 28 linhas
+ * 5 colunas
+ * 1 coluna=cidades
+ * 2 coluna=distancia em km
+ * 3 coluna=movimento
+ * 4 coluna=pavimentacao
+ * 5 coluna=bilateral ou unilateral
+ */
+public class MATRIZ_ADJACENCIA {
+
+    public static void main(String args[]) {
+        Scanner entrada = new Scanner(System.in);
+        int linha = 0, coluna = 0, c = 0, i = 0;
+        int a[][] = new int[30][30];
+
+        int[] codigo = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 28};
+        String[] cidade = {
+            "	RIO DO SUL	",
+            "	LONTRAS 	",
+            "	PRESIDENTE NEREU",
+            "	IBIRAMA	        ",
+            "     PRESIDENTE GETULIO",
+            "	WITTMARSUN	",
+            "	DONA EMMA	",
+            "	VITOR MEIRELES	",
+            "	JOSE BOATEIUX	",
+            "	LAURENTINO	",
+            "	RIO DO OESTE	",
+            "       TROMBUDO CENTRAL",
+            "	AGROLANDIA	",
+            "	ATALANTA	",
+            "	AGRONOMICA	",
+            "      BRACO DO TROMBUDO",
+            "	POUSO REDONDO	",
+            "	MIRIN DOCE	",
+            "	SALETE	        ",
+            "	RIO DO CAMPO	",
+            "	TAIO	        ",
+            "	SANTA TEREZINHA	",
+            "	ITUPORANGA	",
+            "	IMBUIA	        ",
+            "	VIDAL RAMOS	",
+            "	CHA	        ",
+            "	PETROLANDIA	",
+            "	AURORA	        "};
+
+        for (linha = 0; linha < 29; linha++) {
+            for (coluna = 0; coluna < 29; coluna++) {
+                System.out.println("Digite o numero da linha " + linha + " para a coluna " + coluna);
+                a[linha][coluna] = 1;
+            }
+        }
+        //Parte que vai mostrar as Cidades na Matriz
+
+        System.out.println("                     Cidade                   KM     Movimento  Pavimentacao   UNI/BI");
+        for (i = 0; i < 29; i++) {
+            for (linha = 0; linha < 1; linha++) {
+                for (coluna = 0; coluna < 5; coluna++) {
+                    System.out.print("          " + a[linha][coluna] + "          ");
+                    if (coluna == 4) {
+                        System.out.print("\n" + cidade[i] + "              ");
+                    }
+                }
+            }
+        }
+
+    }
+}

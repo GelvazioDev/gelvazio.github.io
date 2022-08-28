@@ -1,0 +1,278 @@
+#Elementos da Competência:
+Frameworks para estruturação de páginas: conceitos, exemplos.
+
+#SLIDE 01 - Principais frameworks CSS
+
+Atualmente, os frameworks CSS estão entre as ferramentas de front-end mais utilizadas por desenvolvedores web em suas atividades. 
+Eles são capazes de agilizar a produção dos mais variados projetos de forma simples, eficiente e confiável.
+
+Os frameworks são bibliotecas de códigos já prontos que permitem a implementação de diversos recursos em poucas linhas de comando. 
+Após integrá-los ao seu próprio código, fica muito mais fácil organizar layouts, inserir componentes personalizados 
+e criar sites totalmente responsivos.
+
+A verdade é que existem diversas opções no mercado, desta forma temos uma lista com os 14 frameworks CSS mais utilizados 
+pelos profissionais hoje em dia.
+
+Vamos falar sobre seus recursos, vantagens e diferenciais para ajudar o desenvolvedor a 
+escolher a opção ideal para cada projeto.
+São eles:
+=>Semantic UI
+=>Miligram
+=>Bootstrap
+=>UIKit
+=>Skeleton
+=>Tacit
+=>HTML5 Boilerplate
+=>Vuetify
+=>Onsen UI
+=>Groundwork
+=>960 Grid System
+=>Tailwind CSS
+=>Materialize CSS
+=>Pure
+
+#SLIDE 02 - Semantic UI - https://semantic-ui.com/
+A primeira alternativa da nossa lista é o Semantic UI , 
+framework que está em constante evolução desde que foi lançado, em 2013. 
+Sua grande característica, como o próprio nome sugere, é que ele é projetado para que a construção do código do usuário 
+seja simples e orientada pela semântica.
+
+Isso quer dizer que suas classes são nomeadas de modo a remeter à sintaxe de um idioma natural. 
+Assim, conceitos como plural e ordem das palavras ajudam bastante a entender as funções e recursos integrados ao framework. 
+Graças a essa estrutura, o Semantic UI pode ser uma boa opção para aqueles que estão iniciando no uso dessas ferramentas de 
+desenvolvimento.
+
+Por outro lado, é recomendado que o usuário tenha certa familiaridade com a linguagem de programação JavaScript, 
+que é fundamental para vários dos recursos oferecidos.
+
+#SLIDE 03 - Miligram - https://milligram.io/
+Outro framework que aposta em uma estrutura minimalista para dar mais liberdade ao desenvolvedor é o Milligram. 
+Com uma base de usuários e colaboradores considerável, sua biblioteca conta com uma coleção de módulos indispensáveis 
+para qualquer site prontos para serem exibidos em qualquer dispositivo.
+
+Ainda mais leve do que o antecessor de nossa lista, ele pode ser agregado a qualquer projeto sem a necessidade de 
+reconfigurar os estilos já existentes, já que ele não conta com nenhuma estilização padronizada. Isso também significa 
+que o desenvolvedor precisa ter um certo nível de conhecimento sobre a linguagem CSS para deixar o projeto 
+com a identidade visual pretendida.
+
+#SLIDE 04 - Bootstrap - https://getbootstrap.com/
+Provavelmente, o Bootstrap seja o mais lembrado quando falamos em frameworks CSS atualmente. 
+Criado pela equipe do Twitter em 2011, ele é um dos principais responsáveis pela popularização 
+desse tipo de ferramenta como um importante recurso para desenvolvimento web.
+
+Além de permitir a criação de sites totalmente responsivos, ele conta com o auxílio de microprocessadores 
+de folhas de estilo para um desempenho eficiente sem abrir mão de uma implementação facilitada.
+Também é possível adicionar seus plugins JavaScript para ter acesso a uma vasta biblioteca de componentes, 
+como carrossel de imagens, galerias e botões incríveis.
+
+A comunidade do Bootstrap é enorme e muito ativa, o que garante ao framework uma documentação completa e atualizada. 
+Sua principal desvantagem é o aumento causado nas requisições de carregamento da página, 
+dependendo da quantidade de recursos adicionados, já que sua modularização pode exigir alguns conhecimentos mais avançados.
+
+#SLIDE 05 - UIKit - https://getuikit.com/
+Mais uma excelente opção para quem busca um framework robusto e poderoso, o UIKit traz consigo um conjunto de elementos 
+que podem ser facilmente customizados para se integrarem a qualquer ideia. Seus componentes podem ser utilizados individualmente,
+ de acordo com a necessidade do usuário, tornando seu carregamento mais ágil.
+
+O principal mercado do UIKit é o de desenvolvimento de aplicativos para o sistema iOS. Por isso, sua comunidade não 
+é tão grande e a documentação não é tão desenvolvida, o que pode ser uma barreira à sua utilização em alguns casos.
+
+#SLIDE 06 - Skeleton - https://getskeleton.com/
+O Skeleton é mais um dos frameworks de nossa lista que se destacam por ser leve e compacto. 
+Em cerca de 400 linhas de código apenas, essa ferramenta é capaz de fornecer os principais recursos 
+utilizados em projetos menores, com um sistema de grid pronto para exibir corretamente sites em desktops, tablets e smartphones.
+
+Graças ao seu tamanho mínimo, ele praticamente não causa reflexos no desempenho das páginas em que é utilizado. 
+A desvantagem é que, justamente por ser tão enxuto, ele não é recomendado para projetos maiores e
+ que demandam alguns recursos já considerados comuns.
+
+#SLIDE 07 - Tacit - https://github.com/yegor256/tacit
+Diferentemente da maioria das soluções que conhecemos, o Tacit não nasceu do investimento de uma grande empresa
+ ou do esforço de um grupo de desenvolvedores. Essa biblioteca foi idealizada e criada por uma única pessoa 
+ e seu objetivo é entregar resultados excelentes até mesmo para quem tem pouco conhecimento sobre as linguagens de desenvolvimento web.
+
+Como a ideia do framework é ser a principal referência para o desenvolvimento do projeto, 
+não é recomendado utilizá-lo em conjunto de outras bibliotecas ou até mesmo com estilos próprios, 
+muitas vezes. No entanto, seu visual nativo é bastante agradável e pode funcionar muito bem com a maior parte das páginas modernas.
+
+#SLIDE 08 - HTML5 Boilerplate - https://h5bp.net/
+Construído por profissionais, o HTML5 Boilerplate é, na prática, um template inicial que serve como base para a criação de qualquer site. 
+Sua aplicação confere mais velocidade e segurança para o desenvolvimento web ao implementar um conjunto 
+de boas práticas de front-end que estão presentes nos sites das maiores empresas do mundo.
+
+Há disponível para os interessados uma versão simplificada e mais leve, que pode se adaptar à maioria das situações,
+e outra personalizada, em que é possível selecionar os recursos que melhor atenderão a cada projeto. 
+Vale ressaltar que ele é indicado para quem já tem experiência com as linguagens de desenvolvimento, 
+já que ele não conta com recursos e elementos prontos como outras ferramentas que vimos.
+
+#SLIDE 09 - Vuetify - https://vuetifyjs.com/
+O Vuetify é uma biblioteca para Vue.js, um popular framework da linguagem de programação JavaScript. 
+Ele é baseado no conceito de Material Design, implementado inicialmente pelo Google e que se estabeleceu
+ como um dos principais conceitos no desenvolvimento de aplicativos mobile e aplicações web.
+
+Por meio dele, é possível ter acesso a uma série de componentes estilizados que deixam qualquer 
+projeto com uma interface profissional e sofisticada. Para tirar todo o proveito da ferramenta, 
+contudo, é fundamental dominar os principais aspectos do framework necessário para o seu funcionamento.
+
+#SLIDE 10 - Onsen UI - https://onsen.io/
+Pensado especialmente para o desenvolvimento mobile, o Onsen UI permite a criação de aplicativos por meio de linguagens web, 
+como HTML, CSS e JavaScript. Em sua primeira versão, ele dependia do framework de JavaScript AngularJS, o que deixou de 
+ser necessário a partir da segunda versão, dando mais liberdade aos que utilizam essa ferramenta.
+
+Graças a essa forma híbrida de trabalhar que o Onsen UI permite, quem desenvolve pode aproveitar as tecnologias 
+que mais domina sem deixar de lado os componentes de interface que aplicações mobile demandam. 
+Por ser um framework de nicho, sua comunidade pode não ser tão grande, mas se mantém ativa e 
+conta com uma boa documentação para orientar os interessados.
+
+#SLIDE 11 - Groundwork - https://groundworkcss.github.io/
+Outra recomendação para quem gosta de apoiar bons projetos independentes é o Groundwork. 
+Ele fornece ao desenvolvedor um conjunto de recursos em HTML5, CSS e JavaScript para tornar 
+seus sites escaláveis e acessíveis em praticamente qualquer dispositivo com pouco esforço.
+
+Ele oferece ainda layouts predefinidos para os principais tipos de sites, permitindo a
+customização dos elementos para que cada página mantenha sua identidade visual. 
+A principal desvantagem é que, por ser um projeto pequeno e sem uma grande comunidade 
+de usuários, questões como atualização e suporte podem representar uma dificuldade em sua utilização.
+
+#SLIDE 12 - 960 Grid System - https://960.gs/
+O framework 960 Grid System é uma ferramenta que estabelece o conceito de criação de páginas com a largura de 960 pixels. 
+Essa é considerada uma medida ideal para a visualização do site em qualquer tamanho de tela sem comprometer 
+a sua estrutura e o posicionamento dos seus elementos.
+
+Os desenvolvedores disponibilizam uma série de exemplos de layout que podem ser construídos por meio do framework. 
+No entanto, vale também ter em mente que as páginas web têm se tornado cada vez mais fluídas quanto às suas dimensões, 
+especialmente após o surgimento de ferramentas que facilitaram a responsividade. Porém, existem, sim, 
+diversos projetos em que o 960 Grid System pode ser bem aplicado e entregar ótimos resultados.
+
+#SLIDE 13 - Tailwind CSS - https://tailwindcss.com/
+#Video 01 - 2 horas - https://www.youtube.com/watch?v=qz9k-m5cnP0
+#Video 02 - 34min - https://www.youtube.com/watch?v=PSkAt5Z-jMo
+
+A premissa do Tailwind CSS é que o desenvolvedor construa suas páginas praticamente sem precisar sair da edição do arquivo HTML. 
+Para isso, ele é totalmente baseado em classes de utilitários, ou seja, classes pré-definidas no arquivo CSS 
+para a maioria das funções que a linguagem disponibiliza.
+
+O framework conta com uma grande comunidade de usuários e uma documentação completa para quem quiser 
+conhecer suas classes, que já são nomeadas de forma a deixar bem claro o seu resultado. 
+Ao dominar a ferramenta, não há dúvidas de que ela pode ajudar a conferir mais dinamismo e aumentar a produtividade.
+
+Para muitos, no entanto, sua estrutura faz com que a manutenção das páginas seja mais complexa, 
+além de compartilhar de diversos problemas dos ultrapassados estilos inline. 
+Outra desvantagem é que ele não conta com elementos básicos em sua biblioteca, como botões ou formulários.
+
+#SLIDE 14 - Materialize CSS - https://materializecss.com/
+Mais um framework CSS que segue o conceito visual moderno estabelecido pelo Google, o Materialize CSS disponibiliza 
+uma biblioteca repleta de componentes elegantes e de fácil aplicação em qualquer site. 
+Também dá para utilizar os componentes do Bootstrap de forma conjunta, o que dá ainda mais possibilidades para quem desenvolve.
+
+Assim como todos os framework modernos, ele é totalmente responsivo e pode ser customizado 
+para uma melhor experiência. Mas, para fazer o seu melhor uso, é indicado que se tenha bons
+conhecimentos nas linguagens web que são base de sua estrutura.
+
+#SLIDE 15 - Pure - https://purecss.io/
+Framework desenvolvido pela gigante da web Yahoo, o Pure se destaca por ser uma ferramenta extremamente leve e veloz. 
+A biblioteca tem cerca de 4kb apenas, o que ajuda a manter otimizado o carregamento das páginas e aplicativos construídos com ela.
+
+Com design responsivo incorporado ao código, essa é uma boa opção para aqueles que desenvolvem sob o conceito 
+de mobile-first — isto é, que pensam primeiro na experiência dos usuários de dispositivos móveis. 
+Ele também é bastante flexível, permitindo que o usuário sobrescreva as suas classes e customize a 
+ferramenta para diferentes necessidades.
+
+No entanto, é preciso considerar que a ferramenta não conta com recursos em JavaScript e a variedade de módulos 
+e templates é mais limitada em comparação com outros concorrentes.
+
+#LISTA DE FRAMEWORKS JAVASCRIPT
+#LISTA DE FRAMEWORKS JAVASCRIPT
+#LISTA DE FRAMEWORKS JAVASCRIPT
+#LISTA DE FRAMEWORKS JAVASCRIPT
+#LISTA DE FRAMEWORKS JAVASCRIPT
+#LISTA DE FRAMEWORKS JAVASCRIPT
+#LISTA DE FRAMEWORKS JAVASCRIPT
+
+#SLIDE 16 - Frameworks Javascript mais utilizados 
+Os frameworks front-end contribuem muito para a agilidade no desenvolvimento de softwares, 
+facilitando o trabalho de pessoas programadoras em diversas etapas da execução dos projetos. 
+Mas, como os conhecimentos relacionados à tecnologia estão em constante atualização, 
+diversos frameworks e atualizações para estes surgem a cada momento, a partir de uma dificuldade encontrada. 
+Desta forma temos listados a seguir os frameworks front-end mais utilizados no ano de 2021/2022.
+=>React
+=>Angular.js
+=>Vue.js
+=>Svelte
+=>jQuery
+
+#SLIDE 17 - SPA - Single Page Application
+Não tem como falar-mos de frameworks em Javascript em 2022, sem falar em SPA(Single Page Application)
+Single Page Applications (SPA) são aplicações cuja funcionalidade está concentrada em uma única página. 
+Ao invés de recarregar toda a página ou redirecionar o usuário para uma página nova, apenas o conteúdo principal 
+é atualizado de forma assíncrona, mantendo toda a estrutura da página estática.
+
+Imagine um dashboard, em que os menus lateral e superior são os mesmos para todas as telas da aplicação. 
+Ao clicar em uma opção como “Cadastro de produtos”, o usuário não precisaria recarregar toda a página 
+para ver que no fim apenas o conteúdo central mudou. Para evitar isso, mantemos os menus fixos e 
+alteramos apenas a parte do meio, em que estarão os formulários, tabelas, etc.
+
+Além de otimizar a performance da aplicação, reduzindo o conteúdo a ser carregado, as SPAs têm foco 
+na experiência do usuário, que lida com uma interface mais rápida.
+
+O que usar para construir Single Page Applications?
+Há atualmente no mercado diversos frameworks/bibliotecas que facilitam a criação de aplicações seguindo esse modelo. 
+Entre os principais estão: React, Angular, Vue.js e Svelte.
+
+#SLIDE 18 - React - SPA - https://pt-br.reactjs.org/
+Este framework foi desenvolvido em 2011 pela equipe do Facebook e seus criadores a 
+denominam como “Biblioteca de JavaScript declarativa, eficiente e flexível para criar interfaces de usuário (UI)”.
+ Sendo assim, ela facilita o processo de atualização e sincronização de atividades simultâneas, como o chat e a timeline dos usuários. 
+
+Além do Facebook e os demais aplicativos do grupo, como Instagram e WhatsApp,
+grandes empresas como Netflix, Airbnb e eBay utilizam este framework em seus softwares.
+
+#SLIDE 19 - Angular.js - SPA - https://angularjs.org/
+Desenvolvido pela Google, este framework JavaScript é utilizado por uma grande comunidade 
+de pessoas desenvolvedoras e conta com uma rápida produção de códigos. 
+Ele é adequado para criar aplicativos web avançados que contenham apenas uma página e, 
+além de ser utilizado pela empresa que o criou, também é utilizado pelas empresas Microsoft e PayPal.
+
+#SLIDE 20 - Vue.js - SPA - https://vuejs.org/
+Criado por Evan You e lançado em 2014, Vue.js é um framework open source de JavaScript muito utilizado 
+em aplicações single page (SPA) e em projetos com interfaces que prezam pela interação e experiência dos usuários. 
+
+Por ser um framework de fácil utilização e muito versátil, o Vue.js tem se tornado 
+a primeira opção para muitos profissionais que desejam criar sites com boa qualidade e desempenho. 
+Isso porque sua versatilidade, por exemplo, está relacionada a um ecossistema incremental e progressivo,
+ onde você pode encontrar soluções prontas para uma grande quantidade de situações. 
+
+#SLIDE 21 - Svelte -  SPA - https://svelte.dev/
+Dos frameworks citados aqui neste artigo, o Svelte é o de criação mais recente, sendo lançado em 2016. 
+É destinado à criação de componentes, mas com uma abordagem totalmente diferenciada em relação aos 
+seus concorrentes Vue.js e React, anteriormente citados. 
+
+No Svelte, as responsabilidades não ficam a cargo do navegador, mas sim da etapa de compilação e, 
+com isso, o JavaScript gerado pode ser entendido pelo navegador sem o apoio de outros recursos.
+
+#SLIDE 22 - jQuery - Não Usa SPA - https://jquery.com/
+De acordo com o Developer Survey 2021, relatório anual elaborado pela StackOverflow, 
+o jQuery ocupou o segundo lugar entre os frameworks mais utilizados por desenvolvedores do mundo todo em 2021, 
+ficando atrás apenas do React.js.
+
+Desenvolvido em 2006, por John Resig, o framework funciona como uma tecnologia com software de código aberto,
+cuja licença pertence ao Instituto de Tecnologia de Massachussets (MIT) e à Licença Pública Geral (GPL).
+
+A tecnologia permite a criação de scripts que otimizam a experiência dos usuários e proporcionar mais 
+interatividade no desenvolvimento de páginas web. No entanto, a ideia principal do jQuery é fazer com
+que os códigos sejam imcrementados sem que se tornem mais complexos. 
+Afinal, sua biblioteca possibilita esta simplificação.
+
+
+
+
+
+
+
+
+
+
+
+
+
+

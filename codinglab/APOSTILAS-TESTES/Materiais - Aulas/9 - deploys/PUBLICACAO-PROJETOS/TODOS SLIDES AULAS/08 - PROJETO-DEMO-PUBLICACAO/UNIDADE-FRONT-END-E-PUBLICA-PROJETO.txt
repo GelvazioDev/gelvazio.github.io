@@ -1,0 +1,41 @@
+LISTA DE SITES COM HOSPEDAGEM GRATIS=
+HOSTINGER - 
+LOJAINTEGRADA - https://lojaintegrada.com.br/
+WIX- https://pt.wix.com/
+BITRIX-https://www.bitrix24.com.br/prices/
+GITHUB - USANDO GITHUB PAGES
+
+https://www.000webhost.com/ - LOGIN=GELVAZIO@GMAIL.COM - SENHA=12345678
+link pode ser acessado em:https://website-teste-geo.000webhostapp.com/
+
+
+[PUBLICACAO DE PROJETOS - WEBAPP DE DESENVOLVIMENTO FREE
+HEROKU
+VERCEL
+
+
+PLATAFORMAS CLOUD
+Plataformas
+Atualmente, existem diversos provedores que disponibilizam uma variedade enorme de serviços. 
+Algumas muito utilizadas, sem uma ordem específica, são:
+
+Amazon Web Services
+Microsoft Azure
+Linode
+Digital Ocean
+Google Cloud
+
+GUIA DE COMO SUBIR APLICACAO NA VERCEL E NO HEROKU 
+https://site.alura.com.br/artigos/heroku-vercel-outras-opcoes-cloud-plataforma
+
+[NOVOS 
+https://br.000webhost.com/
+
+pagina github com github pages 
+
+hospedagem gratis de testes na VERCEL
+hospedagem gratis de testes no HEROKU 
+
+[Video sobre dominio VERCER - Filipe Deschamps
+
+
