@@ -1,0 +1,19 @@
+1 - Faca um algoritmo que calcule a media de 3 valores informados;
+
+2 - Faca um algoritmo que leia os valores A,B,C
+//e diga se a soma de A + B é menor que C
+
+3 - Faca um algoritmo que leia dois valores A,B
+//Se valores forem iguais devera se somar os dois ,
+//caso contrario,multiplique A por B
+//Ao final  do calculo, atribuir e imprimir o valor para a
+//variavel C
+
+
+#Nova lista de exercicios
+TENTAR FAZER DO EXERCICIO 1.1.1 ATE O 1.1.15, COM EXCESSAO DOS SEGUINTES QUE SAO COMPLICADOS:
+1.1.8
+1.1.10
+1.1.11
+1.1.13 - TENTAR, SE NAO CONSEGUIR IR PAR PROXIMO
+1.1.14 - SE CONSEGUIR FAZER O DE CIMA FAZER ESTE AQUI

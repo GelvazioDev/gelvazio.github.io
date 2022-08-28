@@ -1,0 +1,42 @@
+[Pessoas por equipe = 5 maximo
+[Equipe 01
+Equipe 01 Equipe 02	Equipe 03	Equipe 04	Equipe 05
+  1        	2	         11	          6	     	  12
+  3        	4	         13	          22	      14
+  5        	21	         15	          23	      16
+  7        	10	         17	          24	      18
+  8			19		     9	          20
+
+[Passos Projeto Integrador
+Sistema Comercial com algumas telas basicas
+de cadastro em html,css e javascript
+
+Telas 
+cliente
+produto
+venda
+contas a pagar
+contas a receber
+Relatorios
+
+#Terca-feira - sera visto html, css, e JavaScript Basico
+
+
+Sera apenas 1 projeto Integrador ate o final,
+na ultima parte aperfeicoando a parte web com PHP.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

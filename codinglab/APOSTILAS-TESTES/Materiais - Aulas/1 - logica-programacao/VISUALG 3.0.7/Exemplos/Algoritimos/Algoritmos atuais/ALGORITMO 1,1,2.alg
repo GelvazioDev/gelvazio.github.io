@@ -1,0 +1,14 @@
+algoritmo "ALGORITMO 1,1,2"
+// Função : QUEBRAR LINHAS
+// Autor :  GELVAZIO
+// Data : 09/10/2019
+// Seção de Declarações 
+var
+
+inicio
+// Seção de Comandos 
+ESCREVAL("JÉSSICA MARIA KOCH MORATELLI")
+ESCREVAL("ESTRADA SAO JOSÉ BAIRRO SANTANA NUMERO 540")
+ESCREVAL("CEP 89160328")
+ESCREVAL("47-988775340")
+fimalgoritmo
