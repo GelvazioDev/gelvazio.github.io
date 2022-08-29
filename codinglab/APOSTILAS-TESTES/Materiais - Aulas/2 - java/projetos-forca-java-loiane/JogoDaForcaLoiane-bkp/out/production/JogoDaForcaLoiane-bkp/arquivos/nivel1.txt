@@ -1,7 +1,0 @@
-6
-bala;bala.gif
-bola;bola.jpg
-abacate;abacate.jpg
-abóbora;abobora.jpg
-água;agua.jpg
-arara;arara.jpg

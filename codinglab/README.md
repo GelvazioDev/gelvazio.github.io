@@ -1,2 +1,0 @@
-# codinglab
-projetos codinglab
