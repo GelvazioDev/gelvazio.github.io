@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button class="abrir-modal" onclick="abrirModal()">Abrir Modal</button>
+    <dialog>
+        <main>
+            <h2>Titulo</h2>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet culpa minima fuga obcaecati optio? Ab sapiente v impedit magnam reprehenderit. Ut voluptates fugit odio magni quibusdam magnam vitae et laborum fuga dignissimos, minima, molestiae molestias
+                provident eos numquam. Molestiae tempore neque tenetur corporis quod voluptatum similique ipsa commodi eos minima at aspernatur, recusandae facere!
+            </p>
+            <button onclick="fecharModal()">Fechar</button>
+        </main>
+    </dialog>
+</body>
+
+<script>
+    function abrirModal() {
+        const modal = document.querySelector("dialog");
+        modal.showModal();
+    }
+
+    function fecharModal() {
+        const modal = document.querySelector("dialog");
+        modal.close();
+    }
+</script>
+
+</html>
